@@ -1,0 +1,140 @@
+/* CSS Styles document */
+.gridOne {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #f0f0f0;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+ }
+
+ /* Define color for 2nd paragraph */
+ .gridOne p:nth-child(2) {
+    color: blue;
+ }
+
+ .gridTwo {
+   display: grid;
+   grid-template-columns: 1fr 1fr 2fr;
+ }
+
+  /* Define color for background column 1 */
+ .box1 {
+   background-color: red;
+   padding: 10px;
+ }
+
+ /* Define color for background column 2 */
+ .box2 {
+   background-color: blue;
+   padding: 10px;
+ }
+
+ /* Define color for background column 3 */
+ .box3 {
+   background-color: yellow;
+   padding: 10px;
+ }
+
+ /* Define style & fontcolor for gridTwo Paragraph */
+ .gridTwo p {
+   margin: 0;
+   font-family: 'Roboto', sans-serif;
+ } 
+
+ /* Define styles & rows for gridThree */
+ .gridThree {
+   display: grid;
+   grid-template-rows: 1fr 3fr;
+   width: 500px;
+   height: 300px;   
+ }
+
+ /* Define styles for new-box1 */
+ .new-box1 { 
+   background-color: lightgreen;
+   padding: 10px;
+   align-items: center;  
+ }
+
+ /* Define styles for new-box2 */
+ .new-box2 {
+   background-color: lightblue;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 10px;
+ }
+
+/* Define styles for new-box2 image */
+ .new-box2 img {
+  width: 500px;
+  height: 225px;
+  object-fit: cover;
+}
+
+/* Define styles for gridFour */
+.gridFour {
+  background-color: green;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  width: 500px;
+}
+
+/* Define styles for #gridFourID */
+#gridFourID {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* Define styles for gridFive */
+.gridFive {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  width: 500px;
+  background-color: purple;
+}
+
+/* Define styles for gridFive-box1 */
+.gridFive-box1 {
+  background-color: #3498db;
+  padding: 20px;
+}
+
+/* Define styles for gridFive-box2 */
+.gridFive-box2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  padding: 20px;
+}
+
+/* Define styles for gridFive-box2 Image */
+.gridFive-box2 img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Define width for wide-image */
+.wide-image {
+  width: 400px;
+}
+
+/* Define styles for gridSix */
+.gridSix {  
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  width: 500px;
+  background-color: #d3d3d3;
+}
+
+/* Define display for gridSix */
+.gridSix-box1 {
+  display: flex;
+}
+
+/* Define styles for gridSix-box2 */
+.gridSix-box2 {
+  padding: 20px;
+  font-family: 'Protest Strike', sans-serif;
+}
